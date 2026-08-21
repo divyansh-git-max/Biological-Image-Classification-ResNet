@@ -42,4 +42,9 @@ During inference, a **Geometric Mean Ensemble** strategy is employed. By taking 
 * `app.py`: The Gradio application script used to host the interactive Hugging Face Space.
 * `requirements.txt`: Environment dependencies.
 
+---
+### 👨‍💻 Developed by Divyansh Ajay
+* 🌐 **Portfolio:** [divyansh-git-max-portfolio.vercel.app](https://divyansh-git-max-portfolio.vercel.app/)
+* 💼 **LinkedIn:** [linkedin.com/in/divyansh-ajay-537406202](https://linkedin.com/in/divyansh-ajay-537406202)
+
 *(Note: Model `.pth` weight files are hosted externally via Hugging Face Git LFS to bypass standard GitHub storage constraints).*
