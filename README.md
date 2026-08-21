@@ -2,7 +2,7 @@
 
 *This project was developed for the [DLP-26T2 Week 9 Image Classification Kaggle Competition](https://www.kaggle.com/competitions/dlp-26t2-week9-assignment/overview).*
 
-[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://divyanshgitmax-dlp-week9-image-classifier.hf.space/)
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://biological-image-classification-res-pearl.vercel.app/)
 
 An end-to-end deep learning project for classifying biological organisms into 10 distinct classes/kingdoms. **This project was executed under strict competition constraints: No Transfer Learning (`weights=None`) and No Transformer architectures.**
 
@@ -12,7 +12,7 @@ An end-to-end deep learning project for classifying biological organisms into 10
 
 ## 🚀 Live Interactive Demo
 You can test the models directly in your browser without downloading any code or weights. 
-👉 **[Click here to try the Live Web App](https://divyanshgitmax-dlp-week9-image-classifier.hf.space/)**
+👉 **[Click here to try the Live Web App](https://biological-image-classification-res-pearl.vercel.app/)**
 
 *(The web app includes 30 built-in sample images for one-click testing across all biological classes).*
 
