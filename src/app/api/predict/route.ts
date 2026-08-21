@@ -13,8 +13,8 @@ export async function POST(req: Request) {
     }
 
     // Securely connect using the server-side environment variable!
-    const client = await Client.connect(HUGGING_FACE_SPACE_ID, {
-      hf_token: process.env.HF_TOKEN,
+    const client = await Client.connect("divyanshgitmax/dlp-week9-image-classifier", {
+      hf_token: process.env.HF_TOKEN as `hf_${string}` | undefined
     });
 
     // Send the image to the ZeroGPU Space
