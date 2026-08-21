@@ -1,5 +1,7 @@
 # Biological Image Classification with ResNet Ensembles 🧬
 
+*This project was developed for the [DLP-26T2 Week 9 Image Classification Kaggle Competition](https://www.kaggle.com/competitions/dlp-26t2-week9-assignment/overview).*
+
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://divyanshgitmax-dlp-week9-image-classifier.hf.space/)
 
 An end-to-end deep learning project for classifying biological organisms into 10 distinct classes/kingdoms. This repository contains the custom-trained ResNet architectures (ResNet18 and ResNet34) and the deployment code for the live interactive web application.
