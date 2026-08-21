@@ -90,7 +90,51 @@ interface = gr.Interface(
     ],
     outputs=gr.Label(num_top_classes=3, label="Predictions"),
     title="Week 9 Biological Image Classifier",
-    description="Upload an image (e.g., a plant, insect, or animal) and let the trained ResNet models classify its biological kingdom/class! Try the Geometric Mean Ensemble for maximum accuracy."
+    description="Upload an image (e.g., a plant, insect, or animal) and let the trained ResNet models classify its biological kingdom/class! Try the Geometric Mean Ensemble for maximum accuracy.",
+    
+    examples=[
+        # Amphibia
+        ["Amphibia_image_0001.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Amphibia_image_0010.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Amphibia_image_0017.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        # Animalia
+        ["Animalia_image_0013.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Animalia_image_0014.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Animalia_image_0016.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        # Arachnida
+        ["Arachnida_image_0003.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Arachnida_image_0005.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Arachnida_image_0006.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        # Aves
+        ["Aves_image_0001.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Aves_image_0008.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Aves_image_0010.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        # Fungi
+        ["Fungi_image_0001.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Fungi_image_0012.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Fungi_image_0024.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        # Insecta
+        ["Insecta_image_0001.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Insecta_image_0004.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Insecta_image_0006.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        # Mammalia
+        ["Mammalia_image_0001.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Mammalia_image_0009.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Mammalia_image_0018.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        # Mollusca
+        ["Mollusca_image_0001.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Mollusca_image_0010.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Mollusca_image_0025.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        # Plantae
+        ["Plantae_image_0001.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Plantae_image_0007.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Plantae_image_0020.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        # Reptilia
+        ["Reptilia_image_0001.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Reptilia_image_0011.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Reptilia_image_0013.jpg", "Ensemble (All 3 Models - Geometric Mean)"],
+        ["Reptilia_image_0014.jpg", "Ensemble (All 3 Models - Geometric Mean)"]
+    ]
 )
 
 interface.launch()
