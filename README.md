@@ -4,7 +4,11 @@
 
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://divyanshgitmax-dlp-week9-image-classifier.hf.space/)
 
-An end-to-end deep learning project for classifying biological organisms into 10 distinct classes/kingdoms. This repository contains the custom-trained ResNet architectures (ResNet18 and ResNet34) and the deployment code for the live interactive web application.
+An end-to-end deep learning project for classifying biological organisms into 10 distinct classes/kingdoms. **This project was executed under strict competition constraints: No Transfer Learning (`weights=None`) and No Transformer architectures.**
+
+### 🏆 Competition Results
+* **F1 Score:** `0.6287`
+* **Leaderboard Rank:** 32nd out of 111 competitors (Top 30%)
 
 ## 🚀 Live Interactive Demo
 You can test the models directly in your browser without downloading any code or weights. 
